@@ -1,0 +1,31 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="J7SL}CY5G`SSh(T(o.Sp" x="110" y="-328"><statement name="HANDLER"><block type="controls_if" id="6/-94%8.zFZ[kuWk,nkW"><mutation elseif="2" else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="c2l#N9e7ZeAR(u.pX3As"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_digital_pin" id="4P#$a5[_tF31hV5l0=k?"><field name="name">DigitalPin.P1</field></block></value><value name="B"><shadow type="math_number" id="{+gPl4nC-FX]P88R?ahv"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="/Pu_NL9Uh)0M$]Mu)Nar"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></statement><value name="IF1"><block type="logic_compare" id="l@G[V@g_ne.AKlZC*@im"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_digital_pin" id="7giYI3ERmBM8%~h=nQcc"><field name="name">DigitalPin.P2</field></block></value><value name="B"><shadow type="math_number" id="paF@@=Aq!t`~PJ#1SQ]B"><field name="NUM">1</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="(:k-Ck:F@[+55%6W:FR?"><field name="LEDS">`
+        # . . . # 
+        # # # . # 
+        # # . # # 
+        # . # # # 
+        # . . . #
+        `</field></block></statement><value name="IF2"><block type="logic_compare" id="sGl+p75_xnw{%Mtkkjq|"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_digital_pin" id="a16aMK1.GT~iI64U#,j7"><field name="name">DigitalPin.P7</field></block></value><value name="B"><shadow type="math_number" id="?T|N(_QKIPf-2zJN=jy+"><field name="NUM">1</field></shadow></value></block></value><statement name="DO2"><block type="device_show_leds" id=";YqmDcPjGyfCJ-rZsyO["><field name="LEDS">`
+        # . . . # 
+        # # # . # 
+        # # # . # 
+        # # # . # 
+        # # # . #
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="z85M^A_AA2K}|rx%F=Ro"><field name="LEDS">`
+        # # # # # 
+        # . # . # 
+        # # # # # 
+        # . . . # 
+        # # # # #
+        `</field></block></statement></block></statement></block><block type="logic_compare" id="@|xL+JExJ#jC?hagsgjk" disabled="true" x="94" y="895"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_digital_pin" id="FtD:twAoG6D-rsbY|d#+" disabled="true"><field name="name">DigitalPin.P8</field></block></value><value name="B"><shadow type="math_number" id="+aiys.8#+;_FB?8U*fB~" disabled="true"><field name="NUM">1</field></shadow></value></block><block type="device_show_leds" id="`+q4B3RB,{J;J:5cxJ0v" disabled="true" x="82" y="989"><field name="LEDS">`
+        # . . . # 
+        # . # . # 
+        # . . . # 
+        # . # . # 
+        # . . . #
+        `</field></block><block type="logic_compare" id="Fsfsk]%/~Q~-ur3)pv_z" disabled="true" x="94" y="1176"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_digital_pin" id=":Y6,e#(Y];x^ZR0=#k=:" disabled="true"><field name="name">DigitalPin.P9</field></block></value><value name="B"><shadow type="math_number" id="cBSi3rb{wf]deo,`Xz]3" disabled="true"><field name="NUM">1</field></shadow></value></block></xml>
